@@ -1,0 +1,64 @@
+Name : Rohan Sudhir Basugade
+Rollno. 2022416
+Name : Tushar 
+Rollno. 2022544
+
+Group no: 93
+
+
+
+Game Description
+This JavaFX-based game is a platformer where the player controls a character attempting to jump and maneuver across moving obstacles to collect items (cherries) and score points. The game involves timing jumps and flips to navigate through the environment.
+
+Game Controls
+Jump: Click the "Jump" button to make the character jump.
+Flip: Click the "Flip" button to make the character perform a flip when on the platform.
+Mouse Interaction: Use mouse clicks and drags for certain in-game interactions (details below).
+
+
+Gameplay Instructions
+Starting the Game:
+
+Click the "Play" button to start the game.
+Gameplay Mechanics:
+Click and drag the mouse to control the length of the stick after that stick start to rotate and fall on next wall.
+The character moves automatically. 
+
+Click the "Jump" button to make the character jump.
+Use the "Flip" button at the right moment to perform a flip when on the platform.
+
+
+Collecting Cherries:
+
+The goal is to collect cherries to increase your score.
+Cherries appear throughout the game; collect them by colliding with them using your character.
+When you collect atleast 3 cherries, you unlock the revival feature, which allows you to continue even after death.
+
+Game Over:
+
+The game ends when your character falls off the platform or hits obstacles without performing a flip.
+After the game ends, you can either restart the game or exit.
+Revival (if available):
+
+If you have collected enough cherries during gameplay, you can choose to spend them for a chance to revive and continue playing after the game ends.
+
+Load game:
+If you have previously saved a game you can load that game right now to continue further with that game.
+
+
+Pausing the Game:
+
+Click the "Pause" button during gameplay to pause the game.
+Click the "Resume" button to continue playing after pausing.
+Click the "Save" button to save the current status of the game.
+
+Exiting the Game:
+
+Click the "Exit" button to return to the main menu.
+
+
+Design patterns:
+Singleton class-> The cherries class is made singleton so that only one cherry exists at a given time.
+Template-> Template has been used when certain functions need to be called together( for example in defination of update function).
+
+Animations have been added to every movement of all objects in game.
